@@ -7,7 +7,6 @@ input.onButtonPressed(Button.B, function () {
     basic.pause(1000)
 })
 basic.showString("Sensors")
-basic.showString("A: Temp, B: Compas")
 basic.forever(function () {
 	
 })
