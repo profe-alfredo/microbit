@@ -1,5 +1,5 @@
 
-> Open this page at [https://profe-alfredo.github.io/microbit/](https://profe-alfredo.github.io/microbit/)
+> Open this page at [https://profe-alfredo.github.io/microbit/](https://profe-alfredo.github.io/microbit/7-seconds)
 
 ## Use as Extension
 
