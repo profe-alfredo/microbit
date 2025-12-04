@@ -2,9 +2,8 @@
     "name": "microbit-7-seconds",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*",
-        "microbit": "github:profe-alfredo/microbit"
+        "bluetooth": "*"
     },
     "files": [
         "main.blocks",
