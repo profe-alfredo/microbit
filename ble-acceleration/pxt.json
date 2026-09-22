@@ -2,9 +2,8 @@
     "name": "microbit-ble-acceleration",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*",
-        "microbit": "github:profe-alfredo/microbit"
+        "bluetooth": "*"
     },
     "files": [
         "main.blocks",
