@@ -5,4 +5,4 @@ bluetooth.onBluetoothDisconnected(function () {
     basic.showIcon(IconNames.Sad)
 })
 bluetooth.startAccelerometerService()
-basic.showIcon(IconNames.Asleep)
+basic.showIcon(IconNames.Silly)
