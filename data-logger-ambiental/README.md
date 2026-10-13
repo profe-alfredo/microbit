@@ -1,24 +1,31 @@
+# Tutorial para data logger
 
-> Abra esta pagina en [https://profe-alfredo.github.io/microbit/](https://profe-alfredo.github.io/microbit/)
+## Configuramos la captura de datos
 
-## Usar como extensión
+En el bloque de inicio, asignamos a la variable un falso, y definimos las columnas del bloque de configurar columnas con lo siguiente:
+Temperatura
+Sonido
+Luz
 
-Este repositorio puede ser añadido como una **extensión** en MakeCode.
+Para agregar más datos se hace click en el **+**
 
-* abra [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* haga clic en **New Project**
-* haga clic en **Extensiones** en el menú del engranaje
-* buscar **https://github.com/profe-alfredo/microbit/data-logger-ambiental** e importar
+```blocks
+let capturar_datos = 0
+basic.showIcon(IconNames.Heart)
+datalogger.setColumnTitles("")
+```
 
-## Edita este proyecto
+```blocks
+loops.everyInterval(60000, function () {
+    if (true) {
+        datalogger.log(
+        datalogger.createCV("", 0),
+        datalogger.createCV("", 0),
+        datalogger.createCV("", 0),
+        datalogger.createCV("", 0)
+        )
+    }
+})
+```
 
-Para editar este repositorio en MakeCode.
 
-* abra [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* haga clic en **Import** luego haga clic en **Import URL**
-* pegue **https://github.com/profe-alfredo/microbit/data-logger-ambiental** y haga clic en importar
-
-#### Metadatos (utilizados para búsqueda, renderizado)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
