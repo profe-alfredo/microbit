@@ -1,5 +1,5 @@
 {
-    "name": "microbit-environment-data-logger",
+    "name": "microbit-data-logger-ambiental",
     "dependencies": {
         "core": "*",
         "radio": "*",

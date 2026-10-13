@@ -8,7 +8,7 @@ Este repositorio puede ser añadido como una **extensión** en MakeCode.
 * abra [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * haga clic en **New Project**
 * haga clic en **Extensiones** en el menú del engranaje
-* buscar **https://github.com/profe-alfredo/microbit/environment-data-logger** e importar
+* buscar **https://github.com/profe-alfredo/microbit/data-logger-ambiental** e importar
 
 ## Edita este proyecto
 
@@ -16,7 +16,7 @@ Para editar este repositorio en MakeCode.
 
 * abra [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * haga clic en **Import** luego haga clic en **Import URL**
-* pegue **https://github.com/profe-alfredo/microbit/environment-data-logger** y haga clic en importar
+* pegue **https://github.com/profe-alfredo/microbit/data-logger-ambiental** y haga clic en importar
 
 #### Metadatos (utilizados para búsqueda, renderizado)
 
