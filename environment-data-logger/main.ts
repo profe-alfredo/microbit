@@ -1,3 +1,3 @@
-let capturardatos = 0
+let capturar_datos = 0
 basic.showIcon(IconNames.Heart)
 datalogger.setColumnTitles("")
