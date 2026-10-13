@@ -4,7 +4,8 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "microbit": "github:profe-alfredo/microbit"
+        "microbit": "github:profe-alfredo/microbit",
+        "datalogger": "*"
     },
     "files": [
         "main.blocks",
